@@ -1,0 +1,44 @@
+body {
+    background-color: #d8ebfe; 
+    font-family: "Times New Roman", Times, serif;
+    color: black;
+}
+
+header {
+    background-color: #f3c9d7; 
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    color: black;
+}
+
+nav > ul {
+    line-height: 2em;
+    list-style-type: none;
+    padding-left: 5px;
+    background-color: #f3c9d7; 
+}
+
+nav > ul li a {
+    color: black;
+}
+
+section {
+    background-color: white;
+    width: 75%;
+    font-size: 1.2em;
+    padding: 15px;
+}
+
+footer {
+    background-color: #f3c9d7; 
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    color: black;
+}
