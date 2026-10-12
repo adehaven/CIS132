@@ -1,26 +1,33 @@
 
-body {
-    max-width: 80%;
-    margin: 0 auto;
-    background-color: #e6f0fa; /* Soft light blue */
-    font-family: "Times New Roman", Times, serif;
-    color: black;
+* {
+    box-sizing: border-box;
 }
+
+body {
+    max-width: 90%;
+    margin: 0 auto;
+    background-color: #e6f0fa; 
+    font-family: "Times New Roman", Times, serif;
+    color: #000000;
+}
+
 
 header {
-    background-color: #fce4ec; /* Soft light pink */
-    padding: 15px;
+    background-color: #fce4ec; 
+    padding: 20px;
     text-align: center;
+    border-bottom: 2px solid #f8bbd0;
 }
 
-h1 {
-    color: black;
+header h1 {
     margin: 0;
+    font-size: 2.2em;
+    color: #000000;
 }
 
 
 nav {
-    background-color: #f8bbd0; /* Soft rose pink */
+    background-color: #f8bbd0; 
 }
 
 nav ul {
@@ -32,38 +39,37 @@ nav ul {
 
 nav ul li {
     float: left;
+    width: 25%; 
 }
 
 nav ul li a {
     display: block;
-    color: black;
+    color: #000000;
     text-align: center;
-    padding: 12px 20px;
+    padding: 14px 0;
     text-decoration: none;
     font-weight: bold;
 }
 
 nav ul li a:hover {
-    background-color: #fce4ec; 
+    background-color: #fce4ec;
 }
 
 
 main {
     float: left;
-    width: 60%;
-    background-color: white;
-    padding: 20px;
-    box-sizing: border-box;
-    min-height: 350px;
+    width: 65%; 
+    background-color: #ffffff;
+    padding: 2%;
+    min-height: 400px;
 }
 
 aside {
     float: right;
-    width: 38%;
+    width: 32%; 
     background-color: #ffffff;
-    padding: 20px;
-    box-sizing: border-box;
-    min-height: 350px;
+    padding: 2%;
+    min-height: 400px;
 }
 
 
@@ -75,13 +81,13 @@ img {
 
 footer {
     clear: both;
-    background-color: #fce4ec; 
-    color: black;
+    background-color: #fce4ec;
+    color: #000000;
     text-align: center;
     padding: 15px;
     margin-top: 10px;
 }
 
 footer a {
-    color: black;
+    color: #000000;
 }
